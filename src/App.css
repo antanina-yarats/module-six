@@ -94,6 +94,13 @@ nav {
     margin: 10px;
   
   }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    
+  }
   
 
   

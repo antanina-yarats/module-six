@@ -9,7 +9,7 @@ function AboutProduct() {
         <div>
             {data.filter((item)=> item.title === title).map((elem,index)=> {
                 return (
-                    <div key={index}>
+                    <div className="card" key={index}>
                         <h3>{elem.name}</h3>
                         <img src={elem.image} alt="product" width="200px"/>
                         <button className='btn' onClick={() => navigate(-1)}>Go back</button>
