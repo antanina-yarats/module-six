@@ -11,7 +11,7 @@ function AboutProduct() {
                 return (
                     <div key={index}>
                         <h3>{elem.name}</h3>
-                        <img src={elem.image} alt="product" width="400px"/>
+                        <img src={elem.image} alt="product" width="200px"/>
                         <button className='btn' onClick={() => navigate(-1)}>Go back</button>
 
                     </div>

@@ -126,7 +126,7 @@ export const data = [
   
       searchTerm: "shirt",
 
-      title: "lunch-with-friends",
+      title: "lunch-with-friends1",
   
       price: 284,
   
@@ -222,7 +222,7 @@ export const data = [
   
       searchTerm: "skirt",
 
-      title: "lunch-with-friends",
+      title: "lunch-with-friends2",
   
       price: 283,
   
@@ -238,7 +238,7 @@ export const data = [
   
       searchTerm: "shirt",
 
-      title: "lunch-with-friends",
+      title: "lunch-with-friends3",
   
       price: 285,
   
