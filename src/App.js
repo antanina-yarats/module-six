@@ -4,7 +4,6 @@ import './App.css';
 import Contact from './Contact';
 import Team from './Team';
 import Home from './Home';
-import About from './About';
 import AboutProduct from "./AboutProduct";
 
 
@@ -24,9 +23,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/team" element={<Team/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/about/:title" element={<AboutProduct/>}/>
-          
+          <Route path="/:title" element={<AboutProduct/>}/>   
         </Routes>
       </Router>
     </div>

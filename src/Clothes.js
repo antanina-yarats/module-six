@@ -9,7 +9,7 @@ function Clothes({bridge}) {
             return (
                 <div key={id} className="product-card">
                     <div>
-                    <Link to={`/about/${element.title}`}>
+                    <Link to={`/${element.title}`}>
                     <img src={image} width="300px" height="400px" alt="pic"/>
                     </Link>  
                     </div>
